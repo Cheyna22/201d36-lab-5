@@ -56,16 +56,12 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function sumAndMultiply(a, b, c) { //eslint-disable-line
   var totalSum = sum(a, b)[0];
-  console.log(totalSum + ' is the answer to question 1');
-
   var sumOfThreeNum = (totalSum ^ c);
-  console.log(sumOfThreeNum + ' this is the sum of all three numbers');
   var totalSumMessage = (a + ' and ' + b + ' and ' + c + ' sum to ' + sumOfThreeNum);
-
   var totalProduct = multiply(a, b)[0];
   var productThreeNum = (totalProduct ^ c);
 
-  return[totalSum, sumOfThreeNum, totalProduct, productThreeNum];
+  return[totalSum, sumOfThreeNum, totalSumMessage, totalProduct, productThreeNum];
 }
 
 
@@ -110,7 +106,8 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(multArr) { //eslint-disable-line
-
+  var productTotal = 
+  var productMessage = ""
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
